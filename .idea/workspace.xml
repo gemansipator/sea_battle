@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bfbc962-9bc4-41c9-8cb7-7bc13fc155b7" name="Changes" comment="Морской Бой">
-      <change afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="5bfbc962-9bc4-41c9-8cb7-7bc13fc155b7" name="Changes" comment="Морской Бой (задание 7)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +57,7 @@
       <updated>1672171262234</updated>
       <workItem from="1672171264672" duration="805000" />
       <workItem from="1672253971139" duration="8286000" />
-      <workItem from="1672410433262" duration="3372000" />
+      <workItem from="1672410433262" duration="3845000" />
     </task>
     <task id="LOCAL-00001" summary="Морской Бой">
       <created>1672171370056</created>
@@ -71,7 +66,28 @@
       <option name="project" value="LOCAL" />
       <updated>1672171370056</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Морской Бой (задание 7)">
+      <created>1672414748693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672414748694</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Морской Бой (задание 7)">
+      <created>1672414823330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672414823331</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Морской Бой (задание 7)">
+      <created>1672414829152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672414829152</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +106,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Морской Бой" />
-    <option name="LAST_COMMIT_MESSAGE" value="Морской Бой" />
+    <MESSAGE value="Морской Бой (задание 7)..." />
+    <MESSAGE value="Морской Бой (задание 7)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Морской Бой (задание 7)" />
   </component>
 </project>
