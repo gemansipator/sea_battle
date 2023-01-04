@@ -8,12 +8,16 @@ public class Player {
         this.playerName = playerName;
     }
 
+    public Player(int playerPoints) {
+        this.playerPoints = playerPoints;
+    }
+
     public String shot(int x, int y){  //координаты выстрела
         System.out.println("Игрок " + playerName + " решил ударить по ячейке " +x + " / "  + y);
         return null;
     };
 
-    public void player_point(){
+    public void playerPoint(){
         this.playerPoints = playerPoints +1;
 
     }
