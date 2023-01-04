@@ -1,21 +1,21 @@
 public class Ship {   //Корабль
 
-    String ship_name;
-    int ship_size;
+    String shipName;
+    int shipSize;
 
-    public String getShip_name() {
-        return ship_name;
+    public String getShipName() {
+        return shipName;
     };
 
-    public void setShip_name(String ship_name) {
-        this.ship_name = ship_name;
+    public void setShipName(String shipName) {
+        this.shipName = shipName;
     }
 
-    public int getShip_size() {
-        return ship_size;
+    public int getShipSize() {
+        return shipSize;
     }
 
-    public void setShip_size(int ship_size) {
-        this.ship_size = ship_size;
+    public void setShipSize(int shipSize) {
+        this.shipSize = shipSize;
     }
 }
