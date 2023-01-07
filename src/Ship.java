@@ -5,11 +5,11 @@ public class Ship {   //Корабль
     static String name3 = "cruiser";  //«трёхпалубный»; крейсер
     static String name4 = "battle"; //«четырёхпалубный»; линкор
 
-    Player player;   // игрок
+    Player player;   // игрок   Переменная типа Player для принятия в конструктор объекта Player
     String name;
     int size;
 
-    public Ship(Player player, String name, int Size) {
+    public Ship( int size, String name, Player player) {
         this.player = player;
         this.name = name;
         this.size = size;

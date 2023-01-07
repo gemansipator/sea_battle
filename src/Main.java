@@ -3,22 +3,22 @@ public class Main {
         Player player = new Player("Николай");  //Ввод имени
         System.out.println(player.name);  //вывод введенного  имени в консоль
 
-        System.out.println("Начальное количество очков игрока: " + player.playerPoints);
+        System.out.println("Начальное количество очков игрока: " + player.points);
 
         player.shot(4,5); //выстрел
 
         player.playerPoint();  //выведет единицу
-        System.out.println("Количество очков игрока: " + player.playerPoints);
+        System.out.println("Количество очков игрока: " + player.points);
         player.playerPoint();  //выведет двойку
-        System.out.println("Количество очков игрока: " + player.playerPoints);
+        System.out.println("Количество очков игрока: " + player.points);
         player.playerPoint();  //выведет тройку
-        System.out.println("Количество очков игрока: " + player.playerPoints);
+        System.out.println("Количество очков игрока: " + player.points);
 
         System.out.println("\n"+"\n"+"\n");
 
 
-        Ship name = new Ship();
-        System.out.println("Имя корабля " + name.getName());
+        Ship torpedoBoat = new Ship();
+
 
         Ship size = new Ship();
         System.out.println("Размер корабля " + size.size);

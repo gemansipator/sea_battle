@@ -1,6 +1,6 @@
 public class Player {
     String name;  //имя ирока
-    int playerPoints;   //очки игрока
+    int points;   //очки игрока
 
 
 
@@ -8,8 +8,8 @@ public class Player {
         this.name = name;
     }
 
-    public Player(int playerPoints) {
-        this.playerPoints = playerPoints;
+    public Player(int points) {
+        this.points = points;
     }
 
     public String shot(int x, int y){  //координаты выстрела
@@ -18,7 +18,7 @@ public class Player {
     };
 
     public void playerPoint(){
-        this.playerPoints = playerPoints +1;
+        this.points = points +1;
 
     }
 }
