@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Player player = new Player("Николай");  //Ввод имени
-        System.out.println(player.name);  //вывод введенного  имени в консоль
+        System.out.println("Имя игрока: "+ player.name);  //вывод введенного  имени в консоль
 
         System.out.println("Начальное количество очков игрока: " + player.points);
 
@@ -17,18 +17,13 @@ public class Main {
         System.out.println("\n"+"\n"+"\n");
 
 
-        Ship torpedoBoat = new Ship();
+        Ship torpedoBoat = new Ship(1, "торпедный катер",player);
+        Ship destroyer = new Ship(2, "эсминец",player);
+        Ship cruiser = new Ship(3, "крейсер",player);
+        Ship battle = new Ship(4, "линкор",player);
 
-
-        Ship size = new Ship();
-        System.out.println("Размер корабля " + size.size);
-
-
-//        ship.setShipName("Победа"); //Ввод имени корабля
-//        System.out.println("Имя корабля: " + ship.getShipName());  //Вывод имени корабля в консоль
-//
-//        ship.setShipSize(3);  //Вводим размер корабля
-//        System.out.println("размер корабля: " + ship.getShipSize());
+        System.out.println(torpedoBoat.name);
+        System.out.println(torpedoBoat.size);
 
     }
 }
