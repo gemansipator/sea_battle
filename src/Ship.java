@@ -1,30 +1,48 @@
 public class Ship {   //Корабль
 
-    String shipName;
-    int shipSize;
+    static String name1 = "torpedoBoat"; //«однопалубный»; торпедный катер
+    static String name2 = "destroyer"; //«двухпалубный»; эсминец
+    static String name3 = "cruiser";  //«трёхпалубный»; крейсер
+    static String name4 = "battle"; //«четырёхпалубный»; линкор
 
-    public Ship(String shipName) {
-        this.shipName = shipName;
+    Player player;   // игрок
+    String name;
+    int size;
+
+    public Ship(Player player, String name, int Size) {
+        this.player = player;
+        this.name = name;
+        this.size = size;
     }
 
-    public Ship(int shipSize) {
-        this.shipSize = shipSize;
+    public Ship(String name, Player player) {
+        this.name = name;
+        this.player= player;
     }
 
-    public String getShipName() {
-        return shipName;
+    public Ship(int shipSize, Player player) {
+        this.size = shipSize;
+        this.player = player;
+    }
+
+    public Ship() {
+
+    }
+
+    public String getName() {
+        return name;
     };
 
 
-    public void setShipName(String shipName) {
-        this.shipName = shipName;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public int getShipSize() {
-        return shipSize;
+    public int getSize() {
+        return size;
     }
 
-    public void setShipSize(int shipSize) {
-        this.shipSize = shipSize;
+    public void setSize(int shipSize) {
+        this.size = shipSize;
     }
 }

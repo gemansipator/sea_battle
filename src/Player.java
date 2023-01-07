@@ -1,11 +1,11 @@
 public class Player {
-    String playerName;  //имя ирока
+    String name;  //имя ирока
     int playerPoints;   //очки игрока
 
 
 
-    public Player(String playerName) {
-        this.playerName = playerName;
+    public Player(String name) {
+        this.name = name;
     }
 
     public Player(int playerPoints) {
@@ -13,7 +13,7 @@ public class Player {
     }
 
     public String shot(int x, int y){  //координаты выстрела
-        System.out.println("Игрок " + playerName + " решил ударить по ячейке " +x + " / "  + y);
+        System.out.println("Игрок " + name + " решил ударить по ячейке " +x + " / "  + y);
         return null;
     };
 

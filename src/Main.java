@@ -1,27 +1,27 @@
 public class Main {
     public static void main(String[] args) {
-        Player playerName = new Player("Николай");  //Ввод имени
-        System.out.println(playerName.playerName);  //вывод введенного  имени в консоль
-        Player playerPoint = new Player(0);
-        System.out.println("Начальное количество очков игрока: " + playerPoint);
+        Player player = new Player("Николай");  //Ввод имени
+        System.out.println(player.name);  //вывод введенного  имени в консоль
 
-        playerName.shot(4,5); //выстрел
+        System.out.println("Начальное количество очков игрока: " + player.playerPoints);
 
-        playerName.playerPoint();  //выведет единицу
-        System.out.println("Количество очков игрока: " + playerName.playerPoints);
-        playerName.playerPoint();  //выведет двойку
-        System.out.println("Количество очков игрока: " + playerName.playerPoints);
-        playerName.playerPoint();  //выведет тройку
-        System.out.println("Количество очков игрока: " + playerName.playerPoints);
+        player.shot(4,5); //выстрел
+
+        player.playerPoint();  //выведет единицу
+        System.out.println("Количество очков игрока: " + player.playerPoints);
+        player.playerPoint();  //выведет двойку
+        System.out.println("Количество очков игрока: " + player.playerPoints);
+        player.playerPoint();  //выведет тройку
+        System.out.println("Количество очков игрока: " + player.playerPoints);
 
         System.out.println("\n"+"\n"+"\n");
 
 
-        Ship shipName = new Ship("Победа");
-        System.out.println("Имя корабля " + shipName.getShipName());
+        Ship name = new Ship();
+        System.out.println("Имя корабля " + name.getName());
 
-        Ship shipSize = new Ship(1);
-        System.out.println("Размер корабля " + shipSize.shipSize);
+        Ship size = new Ship();
+        System.out.println("Размер корабля " + size.size);
 
 
 //        ship.setShipName("Победа"); //Ввод имени корабля
