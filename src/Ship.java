@@ -1,9 +1,12 @@
 public class Ship {   //Корабль
 
-    static String name1 = "torpedoBoat"; //«однопалубный»; торпедный катер
-    static String name2 = "destroyer"; //«двухпалубный»; эсминец
-    static String name3 = "cruiser";  //«трёхпалубный»; крейсер
     static String name4 = "battle"; //«четырёхпалубный»; линкор
+    static String name3 = "cruiser";  //«трёхпалубный»; крейсер
+    static String name2 = "destroyer"; //«двухпалубный»; эсминец
+    static String name1 = "torpedoBoat"; //«однопалубный»; торпедный катер
+
+
+
 
     Player player;   // игрок   Переменная типа Player для принятия в конструктор объекта Player
     String name;

@@ -24,6 +24,8 @@ public class Main {
 
         System.out.println(torpedoBoat.name);
         System.out.println(torpedoBoat.size);
+        System.out.println("\n"+"\n"+"\n");
+
 
     }
 }

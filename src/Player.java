@@ -12,9 +12,8 @@ public class Player {
         this.points = points;
     }
 
-    public String shot(int x, int y){  //координаты выстрела
+    public void shot(int x, int y){  //координаты выстрела
         System.out.println("Игрок " + name + " решил ударить по ячейке " +x + " / "  + y);
-        return null;
     };
 
     public void playerPoint(){
