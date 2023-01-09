@@ -2,7 +2,6 @@ public class PlayingField {  //Игровое поле
 
     int[][] playingField = new int[10][10];  //Игровое поле
 
-
     int x;  //координата по х
     int y;
     Player player;   // игрок
@@ -13,16 +12,16 @@ public class PlayingField {  //Игровое поле
 
     //методы
 
-    public void put(int x,int y){// поставить корабль
+    public void status(int x,int y){// поставить корабль
+        for (int i = 0; i < x; i++) {
+            for (int j = 0; j < y; j++) {
+                System.out.println(status);
 
-    }
-    public void past(int x,int y){// мимо, промах
-    }
-    public void hit(int x,int y){ // попадание
-    }
-    public void killed(int x,int y){ // убил
+            }
 
+        }
     }
+
 
     //конструктор класса
 
