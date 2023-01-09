@@ -12,14 +12,10 @@ public class PlayingField {  //Игровое поле
 
     //методы
 
-    public void status(int x,int y){// поставить корабль
-        for (int i = 0; i < x; i++) {
-            for (int j = 0; j < y; j++) {
-                System.out.println(status);
+    public void status(int x,int y){
 
-            }
 
-        }
+
     }
 
 
