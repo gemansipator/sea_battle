@@ -12,11 +12,6 @@ public class PlayingField {  //Игровое поле
 
     //методы
 
-    public void status(int x,int y){
-
-
-
-    }
 
 
     //конструктор класса
