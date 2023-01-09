@@ -5,7 +5,7 @@ public class PlayingField {  //Игровое поле
     int x;  //координата по х
     int y;
     Player player;   // игрок
-    int status;
+
 
 
     static int [] rulesOfTheGame = {4,3,2,1};   //правила игры
