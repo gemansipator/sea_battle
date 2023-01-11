@@ -1,6 +1,12 @@
 public class Player {
     String name;  //имя ирока
-    int points;   //очки игрока
+    int point;   //очки игрока
+
+
+
+    Ship[] shipList;  //массив кораблей/ у игрока есть конкретные корабли
+
+    PlayingField playingField;
 
 
 
@@ -8,8 +14,14 @@ public class Player {
         this.name = name;
     }
 
-    public Player(int points) {
-        this.points = points;
+    public Player(int point) {
+        this.point = point;
+    }
+
+    public Player(String name, int point) {
+        this.name = name;
+        this.point = point;
+        shipList = new Ship[PlayingField.countShips()];  //иннициализация массива кораблей с определенным размером
     }
 
     public void shot(int x, int y){  //координаты выстрела
@@ -17,7 +29,11 @@ public class Player {
     };
 
     public void playerPoint(){
-        this.points = points +1;
+        this.point = point +1;
 
+    }
+
+    public void setPlayingField(PlayingField playingField) {
+        this.playingField = playingField;
     }
 }

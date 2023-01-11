@@ -3,16 +3,16 @@ public class Main {
         Player player = new Player("Николай");  //Ввод имени
         System.out.println("Имя игрока: "+ player.name);  //вывод введенного  имени в консоль
 
-        System.out.println("Начальное количество очков игрока: " + player.points);
+        System.out.println("Начальное количество очков игрока: " + player.point);
 
         player.shot(4,5); //выстрел
 
         player.playerPoint();  //выведет единицу
-        System.out.println("Количество очков игрока: " + player.points);
+        System.out.println("Количество очков игрока: " + player.point);
         player.playerPoint();  //выведет двойку
-        System.out.println("Количество очков игрока: " + player.points);
+        System.out.println("Количество очков игрока: " + player.point);
         player.playerPoint();  //выведет тройку
-        System.out.println("Количество очков игрока: " + player.points);
+        System.out.println("Количество очков игрока: " + player.point);
 
         System.out.println("\n"+"\n"+"\n");
 
