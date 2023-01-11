@@ -28,10 +28,10 @@ public class PlayingField {  //Игровое поле
         this.player = player;
     }
 
-    static void status(){
+    void status(){
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
-                //System.out.println(playingField[i][j]+ " ");  //проблема
+                System.out.println(playingField[i][j]+ " ");
             }
             System.out.println();
         }
