@@ -31,7 +31,7 @@ public class PlayingField {  //Игровое поле
     void status(){
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
-                System.out.println(playingField[i][j]+ " ");
+                System.out.print(playingField[i][j]+ "  ");
             }
             System.out.println();
         }

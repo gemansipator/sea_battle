@@ -4,18 +4,20 @@ public class Player {
 
 
 
-    Ship[] shipList;  //массив кораблей/ у игрока есть конкретные корабли
+    Ship[] shipList;  //массив кораблей/ у игрока есть конкретные корабли. Наследован от класса Ship
 
     PlayingField playingField;
 
-
-
     public Player(String name) {
         this.name = name;
+        shipList = new Ship[PlayingField.countShips()];  //иннициализация массива кораблей с определенным размером
+
     }
 
     public Player(int point) {
         this.point = point;
+        shipList = new Ship[PlayingField.countShips()];  //иннициализация массива кораблей с определенным размером
+
     }
 
     public Player(String name, int point) {
